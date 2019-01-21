@@ -51,6 +51,6 @@ def add_s(array)
  array.each_with_index.collect{|element, index|
    while index != 1 
     element << "s"
-  
+  end
  }
 end
