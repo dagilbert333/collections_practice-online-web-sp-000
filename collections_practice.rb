@@ -48,5 +48,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.reject.each_with_index.collect{ |element, index| index == 2 }.any? { |str| str << "s" }
+  [1,2].each_with_index.collect{ |element, index| index == 2 }.any? { |str| str << "s" }
 end
