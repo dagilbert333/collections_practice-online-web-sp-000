@@ -52,5 +52,6 @@ def add_s(array)
    unless element == 1 do 
      element << "s"
    end
+ end
  }
 end
