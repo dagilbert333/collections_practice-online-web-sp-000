@@ -48,5 +48,5 @@ def sum_array(array)
 end
 
 def add_s(array)
- array << "s"
+ array[1] << "s"
 end
