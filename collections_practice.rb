@@ -48,5 +48,6 @@ def sum_array(array)
 end
 
 def add_s(array)
+  r = 1..2
  array.reject.with_index.collect{|element, index| element << "s"}
 end
