@@ -52,6 +52,5 @@ def add_s(array)
    while index != 1 
     element << "s"
   end
-  end
  }
 end
